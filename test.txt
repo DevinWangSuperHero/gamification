@@ -1,0 +1,12 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.21.RELEASE)
+
+2019-07-28 22:57:17.370  INFO 94768 --- [           main] m.gamification.GamificationApplication   : Starting GamificationApplication v0.0.1-SNAPSHOT on LM-SHC-16502924 with PID 94768 (/Users/yongqwang/Downloads/gamification/target/gamification-0.0.1-SNAPSHOT.jar started by yongqwang in /Users/yongqwang/Downloads/gamification)
+2019-07-28 22:57:17.373  INFO 94768 --- [           main] m.gamification.GamificationApplication   : No active profile set, falling back to default profiles: default
+2019-07-28 22:57:17.440  INFO 94768 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1698c449: startup date [Sun Jul 28 22:57:17 CST 2019]; root of context hierarchy

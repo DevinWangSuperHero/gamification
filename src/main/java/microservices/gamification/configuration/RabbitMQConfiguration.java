@@ -6,6 +6,7 @@ import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.amqp.rabbit.annotation.RabbitListenerConfigurer;
 import org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistrar;
+import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
@@ -36,6 +37,11 @@ public class RabbitMQConfiguration implements RabbitListenerConfigurer {
     public MappingJackson2MessageConverter mappingJackson2MessageConverter(){
         return new MappingJackson2MessageConverter();
     }
+
+//    @Bean
+//    public Jackson2JsonMessageConverter jackson2JsonMessageConverter(){
+//        return new Jackson2JsonMessageConverter();
+//    }
 
     @Bean
     public DefaultMessageHandlerMethodFactory messageHandlerMethodFactory(){
